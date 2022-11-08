@@ -4,3 +4,4 @@ gsutil
 gcsfs
 matplotlib
 google-cloud-aiplatform
+jupyterlab-git

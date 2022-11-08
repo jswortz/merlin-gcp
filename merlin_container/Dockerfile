@@ -5,6 +5,7 @@ EXPOSE 8080
 # copy the dependencies file to the working directory
 COPY merlin_container/requirements.txt .
 # install dependencies
+RUN apt-get install nodejs npm -y
 RUN pip install -r requirements.txt
 #RUN mkdir /root/.jupyter
              
