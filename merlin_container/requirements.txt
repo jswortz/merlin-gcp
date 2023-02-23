@@ -1,5 +1,5 @@
 fastapi
-git+https://github.com/NVIDIA-Merlin/models.git
+merlin-models
 gsutil
 gcsfs
 matplotlib
