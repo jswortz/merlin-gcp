@@ -5,8 +5,6 @@ EXPOSE 8080
 # copy the dependencies file to the working directory
 COPY merlin_container/requirements.txt .
 
-
-
 RUN export GCSFUSE_REPO=gcsfuse-$(lsb_release -c -s) && \
     echo ${GCSFUSE_REPO} && \
     ( echo "deb http://packages.cloud.google.com/apt ${GCSFUSE_REPO} main" \
@@ -17,8 +15,6 @@ RUN export GCSFUSE_REPO=gcsfuse-$(lsb_release -c -s) && \
 
 RUN apt update && apt -y install gcsfuse
 
-RUN apt-get update
-RUN apt-get install gcsfuse
 
 # install dependencies
 RUN apt-get install nodejs npm -y
