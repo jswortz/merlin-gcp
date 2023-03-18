@@ -10,7 +10,7 @@ Next, select a custom container as the environment
 
 !![Select the container environment](img/select-environment.png)
 
-### Special note on gcsfuse - enable privlidged mode
+### Special note on gcsfuse - enable privileged mode
 In order for gcsfuse to work in docker containers the container must be run in privileged mode. You can do this by setting the key value pair for the notebook metadata with the key `container-custom-params` and then pass the `--privileged` flag.
 
 Finally, select the container in the Artifact Registry
