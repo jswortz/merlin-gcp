@@ -15,6 +15,6 @@ In order for gcsfuse to work in docker containers the container must be run in p
 
 Finally, select the container in the Artifact Registry
 
-!![Select the container](img/select-container.png)
+!![Select the container](img/Screenshot 2023-06-01 at 12.44.47 PM.png)
 
 That's it, you should have a merlin image usable with GCP
